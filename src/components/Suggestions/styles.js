@@ -4,7 +4,7 @@ export const Container = styled.ScrollView.attrs(() => ({
   horizontal: true,
   showsHorizontalScrollIndicator: false,
   contentContainerStyle: {
-    alignItems: "center",
+    paddingTop: 22,
     paddingLeft: 16,
   },
 }))`
@@ -18,7 +18,9 @@ export const Option = styled.TouchableOpacity`
   align-items: center;
 `;
 
-export const Img = styled.Image``;
+export const Img = styled.Image`
+  align-self: center;
+`;
 
 export const Label = styled.Text`
   color: white;
