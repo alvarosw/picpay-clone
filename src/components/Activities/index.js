@@ -11,7 +11,7 @@ import {
   Description,
   Bold,
   CardBody,
-  UserName,
+  Message,
   CardFooter,
   Details,
   Value,
@@ -40,7 +40,7 @@ export default function Activities() {
         </CardHeader>
 
         <CardBody>
-          <UserName>Álvaro Santos</UserName>
+          <Message>Olha o aviãozinho</Message>
         </CardBody>
 
         <CardFooter>

@@ -42,7 +42,7 @@ export const CardBody = styled.View`
   margin-top: 20px;
 `;
 
-export const UserName = styled.Text`
+export const Message = styled.Text`
   color: white;
   font-size: 20px;
 `;
